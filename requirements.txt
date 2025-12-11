@@ -1,0 +1,14 @@
+# FastAPI and Server
+fastapi[all]
+uvicorn
+
+# Data and ML
+pandas
+numpy
+scikit-learn
+sqlalchemy
+pycaret
+cachetools
+
+# Airflow (if running locally in the same environment)
+apache-airflow

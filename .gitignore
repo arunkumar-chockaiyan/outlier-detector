@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Databases
+*.db
+*.sqlite3
+*.db-journal*
+
+# Trained Models
+*.pkl
+*.h5
+
+# Test and Coverage Artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+
+# Airflow local files
+logs/
+unittests.cfg
+webserver_config.py
+airflow.db
+# Note: The dags folder is intentionally NOT ignored.
+
+# Secrets
+.env
+*.env
+
+# Build artifacts
+dist/
+build/
+*.egg-info/

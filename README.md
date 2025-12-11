@@ -4,6 +4,8 @@ This project provides a complete end-to-end system for detecting anomalies in lo
 
 The system is built with a modern Python stack, leveraging FastAPI for the API, Apache Airflow for orchestration, and PyCaret for rapid machine learning model development.
 
+> **Note:** This project was developed with significant assistance from Gemini Code Assist, an AI-powered collaborator in the IDE.
+
 ## Core Features
 
 - **Real-Time Detection API**: An endpoint that takes a single log entry and predicts if it's an anomaly using an ensemble of trained models.
@@ -68,8 +70,8 @@ You can now follow the [Manual Workflow](#manual-workflow-using-the-api) steps (
 ### Installation Steps
 1.  **Clone the repository:**
     ```sh
-    git clone <your-repository-url>
-    cd OutlierDetector
+    git clone https://github.com/arunkumar-chockaiyan/outlier-detector.git
+    cd outlier-detector
     ```
 2.  **Create & Activate Conda Environment:**
     ```sh
